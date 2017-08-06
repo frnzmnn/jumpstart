@@ -27,6 +27,10 @@ body {
   font-weight: bold;
 }
 
+.hide {
+    display: none;
+}
+
 .navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover {
   color: #399bd1;
 }
@@ -47,28 +51,28 @@ body {
   background-image: url(../images/jumbotron-duffel.jpg);
 }
 
-.jumbotron-bike .banner {
+.jumbotron .banner {
   margin: 11.85rem 30%;
   text-align: center;
   width: 51.3rem;
   color: #ffffff;
 }
 
-.jumbotron-bike .banner-mobile {
+.jumbotron .banner-mobile {
   margin: 11.85rem 0rem;
   width: 100%;
   text-align: center;
   color: #ffffff;
 }
 
-.jumbotron-bike .banner header {
+.jumbotron .banner header {
   font-family: 'Monoton', cursive;
   font-size: 7.1rem;
   text-align: center;
   text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
-.jumbotron-bike .banner-mobile header  {
+.jumbotron .banner-mobile header  {
   font-size: 5.7rem;
   width: 100%;
   font-family: 'Monoton', cursive;
@@ -76,18 +80,18 @@ body {
   text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
-.jumbotron-bike .btn .btn-primary .btn-lg {
+.jumbotron .btn .btn-primary .btn-lg {
   margin-top: 2.8rem;
   width: 11.4rem;
   background-color: #399bd1;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron-bike .btn .btn-primary .btn-lg a:hover {
+.jumbotron .btn .btn-primary .btn-lg a:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-.jumbotron-bike .btn .btn-primary .btn-lg a:active {
+.jumbotron .btn .btn-primary .btn-lg a:active {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
 
