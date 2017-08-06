@@ -72,10 +72,14 @@ body {
 }
 
 .feature p {
-  line-height: 1.4rem;
+  line-height: 1.7rem;
   color: rgba(0, 0, 0, 0.7);
 }
 
 .highlight {
   color: #399bd1;
+}
+
+.projects .description {
+  margin-bottom: 5.85rem;
 }
