@@ -27,8 +27,8 @@ body {
   font-weight: bold;
 }
 
-.hide {
-    display: none;
+.test {
+  display: none;
 }
 
 .navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover {

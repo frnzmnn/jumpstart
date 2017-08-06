@@ -8,12 +8,14 @@ $(document).ready(function(){
       });
     });
 
+var scrollUser = 0;
+
 $(document).ready(function(){
       $(window).scroll(function() {
-        if ($(document).scrollTop() > 50) {
-          $("navbar").addClass("hide");
+        if ($(document).scrollTop() > 100) {
+          $(".navbar").addClass("test");
         } else {
-          $("navbar").removeClass("hide");
+          $(".navbar").removeClass("test");
         }
       });
     });
