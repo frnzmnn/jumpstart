@@ -83,3 +83,21 @@ body {
 .projects .description {
   margin-bottom: 5.85rem;
 }
+
+.contact {
+  background-color: #f3f3f3;
+}
+
+.contact .banner {
+  padding: 5.2rem 0rem;
+  margin: 9rem 30%;
+  text-align: center;
+  width: 42rem;
+  color: #000000;
+}
+
+.contact .banner header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
