@@ -1,3 +1,11 @@
+@media only screen and (min-width: 768px) {
+  .mobile {display: none;}
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop {display: none;}
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Monoton', cursive;
@@ -34,9 +42,24 @@ body {
   color: #ffffff;
 }
 
-.jumbotron-bike .banner header  {
+.jumbotron-bike .banner-mobile {
+  margin: 11.85rem 0rem;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.jumbotron-bike .banner header {
   font-family: 'Monoton', cursive;
   font-size: 7.1rem;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+.jumbotron-bike .banner-mobile header  {
+  font-size: 5.7rem;
+  width: 100%;
+  font-family: 'Monoton', cursive;
   text-align: center;
   text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
@@ -58,6 +81,10 @@ body {
 
 .image-container img {
   opacity: 0.7;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .feature h1 {
@@ -81,7 +108,7 @@ body {
 }
 
 .projects .description {
-  margin-bottom: 5.85rem;
+  padding-bottom: 5.85rem;
 }
 
 .contact {
@@ -90,13 +117,26 @@ body {
 
 .contact .banner {
   padding: 5.2rem 0rem;
-  margin: 9rem 30%;
+  margin: 0rem 30%;
   text-align: center;
   width: 42rem;
   color: #000000;
 }
 
 .contact .banner header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.contact .banner-mobile {
+  padding: 5.2rem 0rem;
+  text-align: center;
+  width: 100%;
+  color: #000000;
+}
+
+.contact .banner-mobile header {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1.4rem;
